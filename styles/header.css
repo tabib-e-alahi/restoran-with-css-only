@@ -12,16 +12,28 @@
 .nav-container {
   display: flex;
   justify-content: space-between;
-  padding: 10px 40px 10px 40px;
+  padding: 15px 45px 15px 45px;
   gap: 300px;
 }
+.title-class{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
-.nav-container > h1 {
+.nav-title {
+    font-family: Nunito;
   color: #fea116;
   font-size: 40px;
   font-weight: 900;
-  width: 170px;
+  
+}
 
+.nav-icon{
+    color: #fea116;
+    font-size: 40px;
 }
 
 .nav-items {
